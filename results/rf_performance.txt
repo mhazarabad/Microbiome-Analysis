@@ -1,0 +1,25 @@
+Random Forest Classifier Performance
+=====================================
+
+
+Call:
+ randomForest(x = rf_predictors, y = rf_response, ntree = 500,      importance = TRUE) 
+               Type of random forest: classification
+                     Number of trees: 500
+No. of variables tried at each split: 10
+
+        OOB estimate of  error rate: 44.86%
+Confusion matrix:
+        Cancer Healthy class.error
+Cancer      45      45         0.5
+Healthy     38      57         0.4
+
+
+Confusion Matrix:
+        Cancer Healthy class.error
+Cancer      45      45         0.5
+Healthy     38      57         0.4
+
+
+Out-of-Bag Error Rate:
+44.86 %
