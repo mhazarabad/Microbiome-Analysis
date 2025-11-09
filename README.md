@@ -60,7 +60,7 @@ The full ranked table is in `results/differential_abundance.csv`, and I plotted 
 ## Literature cross-check
 
 - **Fusobacterium enrichment:** Kostic et al. reported striking Fusobacterium over-representation in tumors. My Wilcoxon analysis recovers multiple Fusobacterium OTUs with log₂ fold-changes > +1.3 (FDR < 0.04) and the PCA plot shows the same axis of separation.
-- **Loss of butyrate producers:** Healthy mucosa is enriched for *Faecalibacterium*, *Ruminococcus*, and *Collinsella*—all depleted in tumors with FDR-adjusted p-values < 0.001—reproducing the butyrate depletion motif from the paper.
+- **Loss of butyrate producers:** Healthy mucosa is enriched for *Faecalibacterium*, *Ruminococcus*, and *Collinsella*, all depleted in tumors with FDR-adjusted p-values < 0.001, reproducing the butyrate depletion motif from the paper.
 - **Predictive modeling:** The Kostic study combined microbial features with host data for better discrimination; my pure-OTU Random Forest mirrors their observation that taxonomy alone is insufficient (OOB accuracy barely >50%).
 
 ## How to run the project
